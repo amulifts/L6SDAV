@@ -25,7 +25,6 @@ Run Jupyter Notebooks:
    ```
 
 ## **Repository Structure**
-- **part1_web_traffic_analysis/**: Web traffic investigation
-- **part2_malware_analysis/**: Malware classification
-- **part3_employee_activity/**: Insider threat detection
-- **shared_resources/**: Common scripts and utilities
+- **notebooks/part1**: Web traffic investigation
+- **notebooks/part2**: Malware classification
+- **notebooks/part3**: Insider threat detection
