@@ -17,7 +17,7 @@ Clone the repository:
    ```
 Install dependencies:
    ```bash
-   pip install -r shared_resources/requirements.txt
+   pip install -r requirements.txt
    ```
 Run Jupyter Notebooks:
    ```bash
