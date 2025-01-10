@@ -1,30 +1,60 @@
-# Security Data Analytics and Visualisation Portfolio
+This is Security Data Analytics and Visualisation portfolio repository for the UFCFEL-15-3 module.
 
-Welcome to the **Security Data Analytics and Visualisation** portfolio repository for the **UFCFEL-15-3** module.
 
-## **Overview**
+# Data Science Security Analytics
+
+## Overview
+
 This repository contains three practical tasks focused on applying data analytics and visualization techniques to address cybersecurity challenges.
 
-### **Assessment Breakdown:**
-1. **Part 1:** Web Traffic Analysis *(25%)*
-2. **Part 2:** Malware Characteristics Classification *(30%)*
-3. **Part 3:** Insider Threat Detection *(45%)*
+## Folder Structure
 
-## **Setup Instructions**
+```powershell
+├── data                  # Raw data for analysis
+│   ├── part1             
+│   ├── part2             
+│   └── part3             
+├── notebooks             # Jupyter Notebooks for analysis
+│   ├── 22085545_part1.ipynb  
+│   ├── 22085545_part2.ipynb  
+│   └── 22085545_part3.ipynb  
+├── results               # Results of analysis
+│   ├── 22085545_part1.html  
+│   ├── 22085545_part2.html  
+│   └── 22085545_part3.html  
+├── requirements.txt      # List of required Python packages
+```
+
+## Installation
+
+To set up the project environment, please follow these steps:
+
 Clone the repository:
    ```bash
-   git clone https://github.com/amulifts/L6SDAV.git
+   git clone <repository_url>
    ```
-Install dependencies:
+
+Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-Run Jupyter Notebooks:
+
+Navigate to the project directory:
    ```bash
+   cd notebooks
    jupyter notebook
    ```
 
-## **Repository Structure**
-- **notebooks/part1**: Web traffic investigation
-- **notebooks/part2**: Malware classification
-- **notebooks/part3**: Insider threat detection
+## Assessment Breakdown
+
+### Part 1: Web Traffic Security Investigation
+Analyze network traffic to detect security issues.
+- **Weight**: 25% of total portfolio mark
+
+### Part 2: Malware Characteristics Classification
+Identify and classify malware on workstations.
+- **Weight**: 30% of total portfolio mark
+
+### Part 3: Insider Threat Detection
+Analyze employee logs to identify suspicious behavior.
+- **Weight**: 45% of total portfolio mark
